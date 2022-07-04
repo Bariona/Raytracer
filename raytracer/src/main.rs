@@ -9,8 +9,8 @@ fn main() {
     print!("{}[2J", 27 as char); // Clear screen
     print!("{esc}[2J{esc}[1;1H", esc = 27 as char); // Set cursor position as 1,1
 
-    let height = 800;
-    let width = 800;
+    let height = 1000;
+    let width = 1000;
     let quality = 60; // From 0 to 100
     let path = "output/output.jpg";
 
